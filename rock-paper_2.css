@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive; }
+
+body {
+  height: 100vh; }
+
+section {
+  height: 768px;
+  width: 1024px;
+  background-color: #75FAC7;
+  display: flex;
+  flex-wrap: wrap; }
+
+h1 {
+  font-size: 50pt;
+  text-shadow: 3px 3px #33C191; }
+
+.squares {
+  width: 200px;
+  border: 6pt solid black;
+  border-radius: 15px; }
+
+/*# sourceMappingURL=rock-paper_2.css.map */

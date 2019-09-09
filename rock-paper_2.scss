@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+
+}
+
+$radius: 15px;
+$green: #75FAC7;
+
+body {
+  height: 100vh;
+}
+
+section {
+  height: 768px;
+  width: 1024px;
+  background-color: $green;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+h1 {
+  font-size: 50pt;
+  text-shadow: 3px 3px #33C191;
+}
+
+.squares {
+  width: 200px;
+  border: 6pt solid black;
+  border-radius: $radius;
+}
