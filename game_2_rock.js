@@ -39,20 +39,20 @@
             || (player === "assets/rock.png" && computer === "assets/scissors.png")
             || (player === "assets/paper.png" && computer === "assets/rock.png")) {
             document.getElementById("winner-result").innerHTML = "Winner: You!!!";
-
+            document.getElementById("img-you").style.backgroundColor = "#33C191";
             confetti.start();
 
         } else if ((player === "assets/scissors.png" && computer === "assets/rock.png")
             || (player === "assets/rock.png" && computer === "assets/paper.png")
             || (player === "assets/paper.png" && computer === "assets/scissors.png")) {
             document.getElementById("winner-result").innerHTML = "Winner: Evil Computer";
+            document.getElementById("img-computer").style.backgroundColor = "#33C191";
 
         } else {
             document.getElementById("winner-result").innerHTML = "Winner: Even!";
         }
-
-
     });
+
 
 
 })();
