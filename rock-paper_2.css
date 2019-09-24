@@ -20,7 +20,6 @@ section {
   background-color: #75FAC7; }
 
 .container {
-  border: 2px solid yellow;
   display: flex;
   flex-flow: wrap;
   justify-content: center; }
@@ -32,7 +31,6 @@ section {
   height: 50px; }
 
 .box {
-  border: 2px solid blue;
   margin: 10px; }
 
 h1 {
