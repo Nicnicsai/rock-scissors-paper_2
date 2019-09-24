@@ -1,9 +1,8 @@
 * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
   font-family: 'Pacifico', cursive;
-
 }
 
 $radius: 15px;
@@ -15,20 +14,93 @@ body {
 
 section {
   height: 768px;
-  width: 1024px;
-  background-color: $green;
+  width: 100%;
+}
+
+.container {
+  border: 2px solid yellow;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+
+.buttons {
+  display: block;
+  margin-top: 60%;
+  width: 50px;
+  height: 50px;
+}
+
+.box {
+  border: 2px solid blue;
+ // width: 20%;
+  margin: 10px;
 }
 
 
 h1 {
-  font-size: 50pt;
+  font-size: 40pt;
   text-shadow: 3px 3px #33C191;
+  text-align: center;
+}
+
+.middle-side {
+display: flex;
+}
+
+.middle-side>p {
+align-self: flex-end;
 }
 
 .squares {
   width: 200px;
   border: 6pt solid black;
   border-radius: $radius;
+}
+
+.box-button-play {
+  text-align: center;
+  border: 2px solid green;
+}
+
+#play-btn{
+  width: calc(100% - 400px);
+  margin-left: 89px;
+
+
+}
+
+.result-box {
+  text-align: center;
+}
+
+#scissors-btn {
+  background: url(assets/scissors-gr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 50%;
+
+}
+
+#rock-btn {
+  background: url(assets/rock-gr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 50%;
+}
+
+#paper-btn {
+  background: url(assets/paper-gr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 50%;
+
+}
+
+.buttons:hover {
+  border: 2px solid $green;
 }

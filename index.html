@@ -21,41 +21,38 @@
         <h1>Paper, Rock & Scissors</h1>
     </div>
 
-    <div>
+    <div id="parent-boxes" class="container">
 
-        <!-- square right -->
-        <div class="left-side">
-            <!--buttons -->
-            <div>
-                <button type="button" class="buttons" id="scissors-btn">Scissors</button>
-                <button type="button" class="buttons" id="rock-btn">Rock</button>
-                <button type="button" class="buttons" id="paper-btn">Paper</button>
-            </div>
-
-            <div>
-                <!-- square left -->
-                <img class="squares"  src="assets/paper.png" alt="your choice" id="img-you">
-            </div>
+        <!--buttons -->
+        <div id="three-buttons" class="box button-box">
+            <button type="button" class="buttons" id="scissors-btn"></button>
+            <button type="button" class="buttons" id="rock-btn"></button>
+            <button type="button" class="buttons" id="paper-btn"></button>
         </div>
 
-        <div class="middle-side">
+        <div class="left-side box">
+            <!-- square left -->
+            <img class="squares" src="assets/paper.png" alt="your choice" id="img-you">
+        </div>
+
+        <div class="middle-side box">
             <p>VS</p>
         </div>
 
 
-        <div class="right-side">
+        <div class="right-side box">
             <!-- square right -->
             <img class="squares" src="assets/scissors.png" alt="the computer's choice" id="img-computer">
         </div>
 
     </div>
 
-    <div>
+    <div class="box-button-play">
         <button type="button" id="play-btn">Play!</button>
     </div>
 
 
-    <div class="col-12" id="winner-result">
+    <div class="result-box" id="winner-result">
         <p> Winner:... </p>
     </div>
 

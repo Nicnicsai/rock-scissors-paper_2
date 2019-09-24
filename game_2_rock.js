@@ -38,7 +38,7 @@
         if ((player === "assets/scissors.png" && computer === "assets/paper.png")
             || (player === "assets/rock.png" && computer === "assets/scissors.png")
             || (player === "assets/paper.png" && computer === "assets/rock.png")) {
-            document.getElementById("winner-result").innerHTML = "Winner: YOU!!!";
+            document.getElementById("winner-result").innerHTML = "Winner: You!!!";
 
             confetti.start();
 
@@ -48,7 +48,7 @@
             document.getElementById("winner-result").innerHTML = "Winner: Evil Computer";
 
         } else {
-            document.getElementById("winner-result").innerHTML = "Winner: EVEN!";
+            document.getElementById("winner-result").innerHTML = "Winner: Even!";
         }
 
 
