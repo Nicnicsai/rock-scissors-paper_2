@@ -103,6 +103,29 @@ h1 {
     display: inline-block;
     margin-top: 20%;
     margin-right: 5px;
-    margin-left: 5px; } }
+    margin-left: 5px; }
+
+  .squares {
+    width: 100px;
+    border: 3pt solid black;
+    border-radius: 15px; }
+
+  #play-btn {
+    width: 200px;
+    margin: 0 auto;
+    background-color: black;
+    color: #75FAC7;
+    font-size: 1em;
+    padding: 5px;
+    border: 4px solid black;
+    margin-top: 7px;
+    border-radius: 15px;
+    margin-bottom: 20px; }
+
+  section {
+    padding-top: 22%;
+    height: 100%;
+    width: 100%;
+    background-color: #75FAC7; } }
 
 /*# sourceMappingURL=rock-paper_2.css.map */

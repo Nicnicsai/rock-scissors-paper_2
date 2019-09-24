@@ -144,6 +144,30 @@ align-self: flex-end;
     margin-left: 5px;
   }
 
+  .squares {
+    width: 100px;
+    border: 3pt solid black;
+    border-radius: $radius;
+  }
 
+  #play-btn{
+    width: 200px;
+    margin: 0 auto;
+    background-color: black;
+    color: $green;
+    font-size: 1em;
+    padding: 5px;
+    border: 4px solid black;
+    margin-top: 7px;
+    border-radius: $radius;
+    margin-bottom: 20px;
+  }
+
+  section {
+    padding-top: 22%;
+    height: 100%;
+    width: 100%;
+    background-color: $green;
+  }
 
 }
