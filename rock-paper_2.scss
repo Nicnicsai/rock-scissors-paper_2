@@ -23,13 +23,13 @@ body {
 }
 
 section {
-  height: 768px;
+  height: 100%;
   width: 100%;
   background-color: $green;
 }
 
 .container {
-  //border: 2px solid yellow;
+  border: 2px solid yellow;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
@@ -44,7 +44,7 @@ section {
 }
 
 .box {
-  //border: 2px solid blue;
+  border: 2px solid blue;
  // width: 20%;
   margin: 10px;
 }
@@ -133,19 +133,26 @@ align-self: flex-end;
 
 @media only screen and (max-width: 650px) {
 
+
+
   h1 {
     font-size: 20pt;
   }
 
   .buttons {
     display: inline-block;
-    margin-top: 20%;
+    margin-top: 0;
     margin-right: 5px;
     margin-left: 5px;
   }
 
+  .button-box {
+    width: 100%;
+    text-align: center;
+  }
+
   .squares {
-    width: 70px;
+    width: 150px;
     border: 3pt solid black;
     border-radius: $radius;
   }
@@ -169,5 +176,18 @@ align-self: flex-end;
     width: 100%;
     background-color: $green;
   }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+
+
+  .squares {
+    width: 100px;
+    border: 3pt solid black;
+    border-radius: $radius;
+  }
+
 
 }

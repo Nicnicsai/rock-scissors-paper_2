@@ -15,11 +15,12 @@ body {
   height: 100vh; }
 
 section {
-  height: 768px;
+  height: 100%;
   width: 100%;
   background-color: #75FAC7; }
 
 .container {
+  border: 2px solid yellow;
   display: flex;
   flex-flow: wrap;
   justify-content: center; }
@@ -31,6 +32,7 @@ section {
   height: 50px; }
 
 .box {
+  border: 2px solid blue;
   margin: 10px; }
 
 h1 {
@@ -101,12 +103,16 @@ h1 {
 
   .buttons {
     display: inline-block;
-    margin-top: 20%;
+    margin-top: 0;
     margin-right: 5px;
     margin-left: 5px; }
 
+  .button-box {
+    width: 100%;
+    text-align: center; }
+
   .squares {
-    width: 70px;
+    width: 150px;
     border: 3pt solid black;
     border-radius: 15px; }
 
@@ -127,5 +133,10 @@ h1 {
     height: 100%;
     width: 100%;
     background-color: #75FAC7; } }
+@media only screen and (max-width: 650px) {
+  .squares {
+    width: 100px;
+    border: 3pt solid black;
+    border-radius: 15px; } }
 
 /*# sourceMappingURL=rock-paper_2.css.map */
