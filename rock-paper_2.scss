@@ -129,6 +129,26 @@ align-self: flex-end;
   border: 4px solid #33C191;
 }
 
+//score container
+
+.score-container {
+  color: white;
+  background-color: black;
+  display: flex;
+  height: 50px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+.score-container > div {
+  font-family: 'Manjari', sans-serif;
+}
+h5 {
+  font-family: 'Manjari Bold', 'sans-serif';
+}
+
+
+
+
 //for small screens
 
 @media only screen and (max-width: 650px) {

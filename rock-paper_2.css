@@ -95,6 +95,20 @@ h1 {
 .buttons:hover {
   border: 4px solid #33C191; }
 
+.score-container {
+  color: white;
+  background-color: black;
+  display: flex;
+  height: 50px;
+  padding-top: 20px;
+  margin-top: 30px; }
+
+.score-container > div {
+  font-family: 'Manjari', sans-serif; }
+
+h5 {
+  font-family: 'Manjari Bold', 'sans-serif'; }
+
 @media only screen and (max-width: 650px) {
   h1 {
     font-size: 20pt; }
